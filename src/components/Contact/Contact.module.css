@@ -1,9 +1,9 @@
 @import "../../vars.css";
 
 .container {
-  color: var(--color-text);
+  color: var(--color-text-secondary);
   margin-top: 120px;
-  background-color: var(--color-secondary);
+  background-color: var(--color-dark);
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -13,14 +13,15 @@
 }
 
 .text h2 {
-  font-size: 80px;
+  font-size: 25px;
+  font-family: var(--font-dosis);
   font-weight: 700;
-  letter-spacing: 4px;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
 }
 
 .text p {
-  font-size: 40px;
-  font-weight: 400;
+  font-family: var(--font-dosis);
   letter-spacing: 2px;
 }
 
@@ -35,14 +36,17 @@
 .link {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 15px;
+}
+
+.link img {
+  width: 18px;
 }
 
 .link a {
-  color: var(--color-text);
+  color: var(--color-text-secondary);
+  font-family: var(--font-dosis);
   text-decoration: none;
-  font-size: 30px;
-  font-weight: 400;
   letter-spacing: 1.5px;
 }
 

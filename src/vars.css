@@ -1,11 +1,14 @@
 :root {
   /* Colours */
-  --color-text: #fff;
+  --color-text: #000;
+  --color-text-secondary: #fff;
   --color-primary: #576cbc;
-  --color-secondary: #19376d;
-  --color-dark: #0b2447;
-  --color-bg: #04152d;
+  --color-secondary: #f6f0f0;
+  --color-dark: #000;
+  --color-bg: #fff;
+  /* #04152d; */
 
   /* Fonts */
   --font-roboto: "Roboto";
+  --font-dosis: "Dosis Variable";
 }

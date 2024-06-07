@@ -8,19 +8,20 @@
 }
 
 .title {
-  font-size: 35px;
+  color: var(--color-text);
+  font-size: 25px;
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .projects {
-  margin-top: 37px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
-  gap: 15px;
+  gap: 25px;
   width: 100%;
 }
