@@ -1,29 +1,36 @@
 [
   {
     "role": "Software Engineer",
-    "organisation": "Google",
-    "startDate": "Sept, 2022",
-    "endDate": "Present",
+    "organisation": "Mckinsey & Company",
+    "startDate": "Aug, 2022",
+    "endDate": "May, 2024",
     "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
-    "imageSrc": "history/google.png"
+    "imageSrc": "history/mckinsey.png"
   },
   {
-    "role": "UI Designer",
-    "organisation": "Mirosoft",
+    "role": "Software Developer",
+    "organisation": "HUMM GROUP",
     "startDate": "Aug, 2021",
     "endDate": "Aug, 2022",
-    "experiences": ["Worked on Windows 11", "Designed the control panel"],
-    "imageSrc": "history/microsoft.png"
+    "experiences": [
+      "Created an automation solution using C# (.NET framework) to reduce manual invoicing processes (git, Azure dev etc.)",
+      "Rewrite existing SQL stored procedures to meet new business requirements and to fix production bugs",
+      "Collaborated with senior team members to migrate monthly reports to self-service Power BI apps for the finance team"
+    ],
+    "imageSrc": "history/humm.png"
   },
   {
-    "role": "SWE Intern",
-    "organisation": "Netflix",
-    "startDate": "Apr, 2020",
-    "endDate": "Jun, 2020",
-    "experiences": [
-      "Worked on component library",
-      "Helped create UI components"
-    ],
-    "imageSrc": "history/netflix.png"
+    "role": "Accountant",
+    "organisation": "FST MEDIA PTY LTD",
+    "startDate": "Jun, 2019",
+    "endDate": "Jul, 2021",
+    "imageSrc": "history/fstmedia.png"
+  },
+  {
+    "role": "Assistant Accountant",
+    "organisation": "TL CONSULTING GROUP",
+    "startDate": "Mar, 2018",
+    "endDate": "Apr, 2019",
+    "imageSrc": "history/tlconsulting.png"
   }
 ]

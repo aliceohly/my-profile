@@ -6,45 +6,36 @@ import { getImageUrl } from "../../utils";
 export const About = () => {
   return (
     <section className={styles.container} id="about">
-      <h2 className={styles.title}>About</h2>
-      <div className={styles.content}>
+      <h2 className={styles.title}>About Me</h2>
+      <div className={styles.body}>
         <img
-          src={getImageUrl("about/aboutImage.png")}
+          src={getImageUrl("about/aboutImage.gif")}
           alt="Me sitting with a laptop"
           className={styles.aboutImage}
         />
-        <ul className={styles.aboutItems}>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
-              <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
-              </p>
-            </div>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
-              <p>
-                I have experience developing fast and optimised back-end systems
-                and APIs
-              </p>
-            </div>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
-            <div className={styles.aboutItemText}>
-              <h3>UI Designer</h3>
-              <p>
-                I have designed multiple landing pages and have created design
-                systems as well
-              </p>
-            </div>
-          </li>
-        </ul>
+        <div className={styles.aboutContent}>
+          <div className={styles.aboutItemFromThem}>
+            <p>Tell me about Alice</p>
+          </div>
+          <div className={styles.aboutItemFromBot}>
+            <p>
+              Alice is a software engineer with 2 years working experience. She
+              is skillful in front-end technologies and recently dwell in
+              backend. She has joined multiple projects from building AI chatbot
+              to xx. She is a great team player and has passion in coding and
+              problem solving.
+            </p>
+          </div>
+          <div className={styles.aboutItemFromThem}>
+            <p>What else?</p>
+          </div>
+          <div className={styles.aboutItemFromBot}>
+            <p>
+              Alice enjoys doing yoga and doing trip planning. She also
+              previously worked as an accountant for 3 years.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );

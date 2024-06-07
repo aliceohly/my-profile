@@ -1,26 +1,43 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
+    "title": "Ecommerce Website",
+    "imageSrc": "projects/ecommerce.png",
     "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "skills": [
+      "Nextjs (App Router)",
+      "React",
+      "TypeScript",
+      "TailwindCSS",
+      "MongoDB",
+      "Prisma",
+      "DaisyUI",
+      "Vercel"
+    ],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Bubble Pop iOS Game",
+    "imageSrc": "projects/bubblepop.png",
+    "description": "In this iOS game, pop colorful bubbles to score points within 60 seconds! Chain pops of the same color for bonus points and aim for the high score board!",
+    "skills": ["Swift", "MVC Model", "iOS UI Design", "iOS UI Programming"],
+    "demo": "https://www.youtube.com/watch?v=z4NcU-QijDs",
+    "source": "https://github.com/aliceohly/Bubble-Pop-Game/tree/main"
   },
   {
-    "title": "Project C",
+    "title": "Tic Tac Toe",
+    "imageSrc": "projects/tictactoe.png",
+    "description": "Challenge your friends to classic grid-based fun! Make your moves, block your opponent, and aim for three in a row to win!",
+    "skills": ["HTML", "CSS", "React"],
+    "demo": "https://codepen.io/aliceohly/pen/RwxZPmq",
+    "source": "https://codepen.io/aliceohly/pen/RwxZPmq"
+  },
+  {
+    "title": "Personal Portfolio",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "Welcome to my profiles! Explore profiles that highlight my journeys and skills as a software developer.",
+    "skills": ["React", "CSS Modules", "Github"],
+    "demo": "https://codepen.io/aliceohly/pen/RwxZPmq",
+    "source": "https://github.com/aliceohly/profile"
   }
 ]
