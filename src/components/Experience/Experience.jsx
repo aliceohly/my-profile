@@ -36,9 +36,9 @@ export const Experience = () => {
           })}
         </div>
         <ul className={styles.history}>
-          {history.map((historyItem, id) => {
+          {history.map((historyItem, index) => {
             return (
-              <li key={id} className={styles.historyItem}>
+              <li key={index} className={styles.historyItem}>
                 <img
                   src={getImageUrl(historyItem.imageSrc)}
                   alt={`${historyItem.organisation} Logo`}
@@ -48,8 +48,10 @@ export const Experience = () => {
                   <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
                   <ul>
                     {historyItem.experiences &&
-                      historyItem.experiences.map((experience, id) => {
-                        return <li key={id}>{experience}</li>;
+                      historyItem.experiences.map((experience, index) => {
+                        if (index === 0) {
+                          return <li key={index}>{experience}</li>;
+                        }
                       })}
                   </ul>
                 </div>

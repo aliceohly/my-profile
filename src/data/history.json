@@ -4,15 +4,18 @@
     "organisation": "Mckinsey & Company",
     "startDate": "Aug, 2022",
     "endDate": "May, 2024",
-    "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
+    "experiences": [
+      "Worked collaboratively within a team across multiple projects, spanning in-house and client-facing applications across diverse industries. Using technologies like React and TypeScript, I tried my best to bring these projects from Figma design to life. I also pitched in on backend development when needed!"
+    ],
     "imageSrc": "history/mckinsey.png"
   },
   {
     "role": "Software Developer",
-    "organisation": "HUMM GROUP",
+    "organisation": "Humm Group",
     "startDate": "Aug, 2021",
     "endDate": "Aug, 2022",
     "experiences": [
+      "As part of a fantastic team, I helped develop a C# automation solution to streamline invoicing, rewrote SQL stored procedures to squash bugs and meet new business needs, and migrated monthly finance reports into self-service Power BI apps.",
       "Created an automation solution using C# (.NET framework) to reduce manual invoicing processes (git, Azure dev etc.)",
       "Rewrite existing SQL stored procedures to meet new business requirements and to fix production bugs",
       "Collaborated with senior team members to migrate monthly reports to self-service Power BI apps for the finance team"
@@ -21,14 +24,17 @@
   },
   {
     "role": "Accountant",
-    "organisation": "FST MEDIA PTY LTD",
+    "organisation": "FST Media Pty Ltd",
     "startDate": "Jun, 2019",
     "endDate": "Jul, 2021",
+    "experiences": [
+      "As an accountant, I am responsible for keeping our financial records in tip-top shape. From doing invoicing to bank reconciliation and to month end (preparing balance sheet and P/L statement), I am committed to keep everything running smoothly and contributing to the financial health of our company. And if AP, AR or payroll need some extra support, I am always ready to lend a hand."
+    ],
     "imageSrc": "history/fstmedia.png"
   },
   {
     "role": "Assistant Accountant",
-    "organisation": "TL CONSULTING GROUP",
+    "organisation": "TL Consulting Group",
     "startDate": "Mar, 2018",
     "endDate": "Apr, 2019",
     "imageSrc": "history/tlconsulting.png"
