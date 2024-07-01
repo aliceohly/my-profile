@@ -2,7 +2,7 @@
   {
     "title": "Ecommerce Website",
     "imageSrc": "projects/ecommerce.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": "Discover the delightful world of Asian snacks with our eCommerce website, offering a curated selection of authentic treats.",
     "skills": [
       "Nextjs (App Router)",
       "React",
@@ -13,8 +13,16 @@
       "DaisyUI",
       "Vercel"
     ],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "demo": "https://ecommerce-nextjs-8bg33wh7n-alices-projects-c1ad938b.vercel.app/",
+    "source": "https://github.com/aliceohly/ecommerce-nextjs"
+  },
+  {
+    "title": "RSS Aggregator",
+    "imageSrc": "projects/rssagg.png",
+    "description": "Explore a seamless way to stay updated with your favorite content using our RSS aggregator, built with Go language for efficiency and speed.",
+    "skills": ["Go", "SQL", "RESTful API", "Sqlc", "Goose"],
+    "demo": "",
+    "source": "https://github.com/aliceohly/go-rssagg"
   },
   {
     "title": "Bubble Pop iOS Game",
@@ -33,11 +41,11 @@
     "source": "https://codepen.io/aliceohly/pen/RwxZPmq"
   },
   {
-    "title": "Personal Portfolio",
+    "title": "Personal Profile",
     "imageSrc": "projects/project.png",
     "description": "Welcome to my profiles! Explore profiles that highlight my journeys and skills as a software developer.",
     "skills": ["React", "CSS Modules", "Github"],
-    "demo": "https://codepen.io/aliceohly/pen/RwxZPmq",
+    "demo": "https://aliceohly.github.io/profile/",
     "source": "https://github.com/aliceohly/profile"
   }
 ]

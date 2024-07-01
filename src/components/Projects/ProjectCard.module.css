@@ -7,8 +7,14 @@
   background: var(--color-bg);
   box-shadow: 0 5px 5px 0 var(--color-secondary);
   padding: 18px 24px;
-  width: 345px;
+  width: 330px;
   height: 500px;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    width: 100%;
+  }
 }
 
 .image {
