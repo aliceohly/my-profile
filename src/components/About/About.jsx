@@ -19,20 +19,24 @@ export const About = () => {
           </div>
           <div className={styles.aboutItemFromBot}>
             <p>
-              Alice is a software engineer with 2 years working experience. She
-              is skillful in front-end technologies and recently dwell in
-              backend. She has joined multiple projects from building AI chatbot
-              to xx. She is a great team player and has passion in coding and
-              problem solving.
+              Alice is a software developer who has passion for coding and
+              problem solving, with both frontend and backend experience across
+              different projects.
             </p>
-          </div>
-          <div className={styles.aboutItemFromThem}>
-            <p>What else?</p>
           </div>
           <div className={styles.aboutItemFromBot}>
             <p>
-              Alice enjoys doing yoga and doing trip planning. She also
-              previously worked as an accountant for 3 years.
+              She is a fast learner, responsible, and always up for a
+              collaborative challenge!
+            </p>
+          </div>
+          <div className={styles.aboutItemFromThem}>
+            <p>What is her hobby?</p>
+          </div>
+          <div className={styles.aboutItemFromBot}>
+            <p>
+              Alice enjoys doing yoga and travelling. Her favourite drama is
+              Prison Break.
             </p>
           </div>
         </div>
