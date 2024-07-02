@@ -36,6 +36,8 @@ To get a local copy up and running, follow these steps:
 
 To customize the profile, update the components in the `src` directory. Personal information, skills, and projects can be edited directly in the respective components.
 
+Data is stored in json files in `data` folder.
+
 # Deployment
 
 To deploy the project to GitHub Pages, follow these steps:
