@@ -28,13 +28,13 @@ export const ProjectCard = ({
       </div>
       <div className={styles.links}>
         {demo ? (
-          <a href={demo} className={styles.link}>
+          <a href={demo} target="_blank" className={styles.link}>
             Demo
           </a>
         ) : (
           <div></div>
         )}
-        <a href={source} className={styles.link}>
+        <a href={source} target="_blank" className={styles.link}>
           Source
         </a>
       </div>
